@@ -1,0 +1,9 @@
+Подынтегральная функция рациональна относительно переменных \(x_1 = x,\,x_2 = x^{\frac{6}{7}}\). Так как \(a = d = 1,\,\, b = c = 0,\,\, p_1 = \dfrac{6}{7}\), общий знаменатель \(m = 7\), применим подстановку \(x = t^7,\,t \ge 0\), откуда также \(t = \sqrt[7]{x},\, dx = 7 t^6 dt\).
+
+\(\displaystyle{} \int \dfrac{x-19}{x^{\frac{6}{7}}} \, dx =
+\) \(\displaystyle{} \int \dfrac{t^7-19}{t^6} \cdot 7 t^6 \, dt =
+\) \(\displaystyle{} 7 \int \left( t^7 - 19 \right) \, dt =
+\) \( 7 \cdot \left( \dfrac{t^8}{8} - 19 t \right) + C =
+\) \( \dfrac{7}{8} t ^{8} - 133 t + C=
+\) \( \dfrac{7}{8} x ^{\frac{8}{7}} - 133 x ^{\frac{1}{7}} + C =
+\) \( x ^{\frac{1}{7}} \left( \dfrac{7}{8} x - 133 \right) + C\)

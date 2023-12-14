@@ -1,0 +1,5 @@
+Найдите \(\displaystyle{} \int \dfrac{dx}{(3x - 7) \sqrt{-9x^2 + 42x - 33}}\).
+
+<reveal Answer5>Ответ</reveal>.
+
+<reveal Solve5>Решение</reveal>.

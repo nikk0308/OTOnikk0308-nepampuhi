@@ -1,0 +1,10 @@
+Подынтегральная функция рациональна относительно переменных \(x_1 = x,\,x_2 = \sqrt{x},\,x_3 = \sqrt[3]{x}\). 
+Так как \(a = d = 1,\,\, b = c = 0,\,\, p_1 = \dfrac{1}{2},\, p_2 = \dfrac{1}{3}\), общий знаменатель \(m = 6\), применим подстановку \(x = t^6,\,t \ge 0\), откуда также \(t = \sqrt[6]{x},\, dx = 6 t^5 dt\).    
+
+\(   \displaystyle{} \int \dfrac{\sqrt{x} + \sqrt[3]{x}}{x} dx =  
+\) \(\displaystyle{} \int \dfrac{t^3 + t ^ 2}{t^6}\,6 t^5 dt =  
+\) \(6 \int (t^2 + t) \, dt =  \) \(\displaystyle{} 6 \left( \int t^2 dt + \int t dt \right) =  
+\) \(6 \left( \dfrac{t^3}{3} + \dfrac{t^2}{2} \right) + C =  
+\) \(2 t^3 + 3 t^2 + C =  
+\) \(2 \left( \sqrt[6]{x} \right)^3 + 3 \left( \sqrt[6]{x} \right)^2 + C =  
+\) \(2 \sqrt{x} + 3 \sqrt[3]{x} + C\)

@@ -1,0 +1,26 @@
+Применим одну из подстановок Эйлера
+
+\(\sqrt{x^2 - 5 x + 6} = (x-2) \, t\).
+
+Откуда также \(t = \dfrac{\sqrt{x^2 - 5 x + 6}}{x - 2} =
+\) \( \sqrt{ \dfrac{x-3}{x-2}}
+\), \( x = \dfrac{3 - 2 t^2}{1 - t^2}
+\), \( dx = \dfrac{2 t}{t^4 - 2 t^2 + 1} \, dt =
+\) \( \dfrac{2t}{{t^2 - 1}^2} \, dt\).
+
+\(\displaystyle{} \int \dfrac{x - 2}{\sqrt{x^2 - 5 x + 6}} \, dx =
+\) \(\displaystyle{} \int \dfrac{1}{t} \, \dfrac{2t}{{\left( t^2-1 \right)}^2} dt =
+\) \(\displaystyle{} 2 \int \dfrac{dt}{{\left( t^2-1 \right)}^2} =
+\) \(\displaystyle{} 2 \int \dfrac{dt}{{\left( t - 1 \right)}^2 {\left( t + 1 \right)}^2} =
+\) \(\displaystyle{} 2 \int \dfrac{dt}{{\left( - \dfrac{2v}{v - 1} \right)}^2 {\left( - \dfrac{2}{v - 1} \right)}^2} \cdot \dfrac{2}{(v - 1)^2} \, dv =
+\) \(\displaystyle{} 2 \int \dfrac{1}{16} \dfrac{{\left( v - 1 \right)}^2 {\left( v - 1 \right)}^2}{v^2} \cdot \dfrac{2}{(v - 1)^2} \, dv =
+\) \(\displaystyle{} \dfrac{1}{4} \int \dfrac{{\left( v - 1 \right)}^2}{v^2}\, dv =
+\) \(\displaystyle{} \dfrac{1}{4} \int \dfrac{v^2 - 2v + 1}{v^2}\, dv =
+\) \(\displaystyle{} \dfrac{1}{4} \int \left( 1 - \dfrac{2}{v} + \dfrac{1}{v^2} \right) \, dv =
+\) \(\dfrac{1}{4} \left( v - 2 \ln \left| v \right| - \dfrac{1}{v} \right) + C =
+\) \(\dfrac{1}{4} \left( \dfrac{v^2 - 1}{v} - 2 \ln \left| v \right| \right) + C =
+\) \(\dfrac{1}{4} \left( \dfrac{t+1}{t-1} \cdot \dfrac{(t-1)^2 - (t+1)^2}{(t+1)^2} - 2 \ln \left| \dfrac{t - 1}{t + 1} \right| \right) + C =
+\) \( - \dfrac{1}{4} \left( \dfrac{4t}{t^2 - 1} + 2 \ln \left| \dfrac{t - 1}{t + 1} \right| \right) + C =
+\) \( \dfrac{1}{4} \left( \sqrt{x^2 - 5 x + 6} - 2 \ln \left| \dfrac{\sqrt{x^2 - 5 x + 6} - x + 2}{x - 2} \cdot \dfrac{x - 2}{\sqrt{x^2 - 5 x + 6} + x - 2} \right| \right) + C =
+\) \( \sqrt{x^2 - 5 x + 6} - \dfrac{1}{2} \ln \left| \dfrac{\sqrt{x^2 - 5 x + 6} - x + 2}{\sqrt{x^2 - 5 x + 6} + x - 2} \right| + C =
+\) \( \sqrt{x^2 - 5 x + 6} + \dfrac{1}{2} \ln \left| \dfrac{\sqrt{x^2 - 5 x + 6} + x - 2}{\sqrt{x^2 - 5 x + 6} - x + 2} \right| + C\)
