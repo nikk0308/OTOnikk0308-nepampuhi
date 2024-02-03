@@ -1,5 +1,0 @@
-Найдите \(\displaystyle{} \int \dfrac{x-19}{x^{\frac{6}{7}}} \, dx\).
-
-<reveal Answer1>Ответ</reveal>.
-
-<reveal Solve1>Решение</reveal>.

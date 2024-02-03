@@ -1,5 +1,0 @@
-Найдите \(\displaystyle{} \int \dfrac{x - 2}{\sqrt{x^2 - 5 x + 6}} \, dx\).
-
-<reveal Answer4>Ответ</reveal>.
-
-<reveal Solve4>Решение</reveal>.

@@ -1,5 +1,0 @@
-Найдите \(\displaystyle{} \int \dfrac{\sqrt{x} + \sqrt[3]{x}}{x} dx\).
-
-<reveal Answer2>Ответ</reveal>.
-
-<reveal Solve2>Решение</reveal>.

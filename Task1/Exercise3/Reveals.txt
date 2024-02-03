@@ -1,5 +1,0 @@
-Найдите \(\displaystyle{} \int \dfrac{dx}{\sqrt[4]{(7 - x)(7 + x)^7}}\).
-
-<reveal Answer3>Ответ</reveal>.
-
-<reveal Solve3>Решение</reveal>.

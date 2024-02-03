@@ -1,1 +1,0 @@
-\( x ^{\frac{1}{7}} \left( \dfrac{7}{8} x - 133 \right) + C\)

@@ -1,1 +1,0 @@
-\( \sqrt{x^2 - 5 x + 6} + \dfrac{1}{2} \ln \left| \dfrac{\sqrt{x^2 - 5 x + 6} + x - 2}{\sqrt{x^2 - 5 x + 6} - x + 2} \right| + C\)

@@ -1,1 +1,0 @@
-\( \dfrac{1}{12} \ln \left( \dfrac{3x - 7}{4 + \sqrt{- 9x^2 + 42x - 33}} \right) + C\)
